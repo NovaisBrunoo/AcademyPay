@@ -1,0 +1,97 @@
+.bg-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-cliente {
+    width: 600px;
+    height: 758px;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-btn button {
+    width: 20%;
+}
+
+.btn {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-aplicar {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-cancel {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #F8F8F9;
+    color: #0E8750;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 23px;
+}
+
+.modal-cliente-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.logo-modal-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-cliente-header img {
+    cursor: pointer;
+}
+
+.close-modal {
+    position: relative;
+    top: -35px;
+    right: 0;
+}

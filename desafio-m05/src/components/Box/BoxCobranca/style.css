@@ -1,0 +1,54 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 397px;
+    border-radius: 15px;
+    margin-right: 5%;
+    background-color: #ffffff;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid #EFF0F6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.contador-Inadimplentes {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+
+.contador-pagas {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+
+.footer-box {
+    border-top: 1px solid #EFF0F6;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box strong {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: #DA0175;
+    cursor: pointer;
+}

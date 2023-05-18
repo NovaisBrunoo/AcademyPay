@@ -1,0 +1,87 @@
+.formCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formCadastro input {
+    width: 379px;
+    height: 44px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 0px 5px;
+}
+
+.container-cpf-tel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-cpf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-cpf input {
+    width: 100%;
+}
+
+.formCadastro label {
+    float: left;
+    width: 78%;
+    font-weight: bold;
+}
+
+.container-cpf-tel label {
+    float: left;
+    font-weight: bold;
+    width: 100%;
+}
+
+.titleModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.titleModal img {
+    cursor: pointer;
+}
+
+.close-modal-edite {
+    position: relative;
+    right: -90px;
+    top: -25px;
+}
+
+.confirmar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.confirmar input {
+    width: 379px;
+    height: 44px;
+    margin-bottom: 0;
+}
+
+.confirmar span {
+    width: 100%;
+}
+
+.icon-visibaly {
+    position: relative;
+    right: -44%;
+    top: -50%;
+}

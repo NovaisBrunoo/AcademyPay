@@ -1,0 +1,30 @@
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    box-shadow: none !important;
+}
+
+.statusPendente {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 99px;
+    height: 19px;
+}
+
+.statusPago {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 99px;
+    height: 19px;
+}
+
+.status-espera {
+    background-color: #FCF6DC;
+    color: #C5A605;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 99px;
+    height: 19px;
+}

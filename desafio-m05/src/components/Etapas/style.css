@@ -1,0 +1,31 @@
+.btn {
+    all: unset;
+}
+
+span.MuiStepConnector-line.MuiStepConnector-lineVertical.css-vgb7rt {
+    border-color: green !important;
+    border-left-width: 3px !important;
+    border-left-style: solid !important;
+}
+
+text.MuiStepIcon-text.css-10psl7k {
+    font-weight: bold;
+    fill: rgba(0, 0, 0, 0.0) !important;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.Mui-active.css-4ff9q7 {
+    color: #0E8750 !important;
+    border-radius: 50% !important;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.css-4ff9q7 {
+    color: #ffffff !important;
+}
+
+path {
+    color: #0E8750;
+}
+
+svg:root {
+    overflow: visible !important;
+}

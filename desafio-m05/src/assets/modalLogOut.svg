@@ -1,0 +1,16 @@
+<svg width="92" height="59" viewBox="0 0 176 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_411_84435)">
+<rect x="42" y="38" width="92" height="51" rx="8" fill="white"/>
+<g clip-path="url(#clip0_411_84435)">
+</g>
+</g>
+<path d="M61.8443 30.5694C62.2204 30.2428 62.7796 30.2428 63.1557 30.5694L72 38.25H53L61.8443 30.5694Z" fill="white"/>
+<defs>
+<filter id="filter0_d_411_84435" x="0" y="0" width="176" height="135" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_411_84435" result="shape"/>
+</filter>
+<clipPath id="clip0_411_84435">
+<rect width="16" height="16" fill="white" transform="translate(60 48)"/>
+</clipPath>
+</defs>
+</svg>

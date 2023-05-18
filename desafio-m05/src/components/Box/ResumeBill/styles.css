@@ -1,0 +1,52 @@
+.container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+.container-card img {
+    margin-right: 40px;
+}
+
+.paid {
+    background-color: #EEF7F7;
+}
+
+.overdue {
+    background-color: #FFEFEF;
+}
+
+.future {
+    background-color: #FCF6DC;
+}
+
+.resume-bill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 11px;
+
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 130%;
+
+    color: #3F3F55;
+}
+
+.resume-bill span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.resume-bill strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}

@@ -1,0 +1,45 @@
+.loginCorpo {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginEsquerda {
+    width: 34%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('../../assets/fundoEsquerdo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginTexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 158px;
+
+    color: #034A2A;
+}
+
+.loginDireita {
+    width: 66%;
+    height: 100%;
+
+    background: #F8F8F9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

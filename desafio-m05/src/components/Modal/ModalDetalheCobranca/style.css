@@ -1,0 +1,141 @@
+.container-modal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-detalhe {
+    width: 600px;
+    height: 461px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-detalhe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    gap: 25px;
+}
+
+.info-nome,
+.info-descricao,
+.info-vencimento,
+.info-valor,
+.info-id,
+.info-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    width: 80%;
+}
+
+.info-nome strong,
+.info-descricao strong,
+.info-vencimento strong,
+.info-valor strong,
+.info-id strong,
+.info-status strong {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.info-nome strong {
+    margin-top: 0;
+}
+
+.info-nome span,
+.info-descricao span,
+.info-vencimento span,
+.info-valor span,
+.info-id span {
+    float: left;
+    width: 100%;
+    margin-bottom: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.vencimento-valor,
+.id-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.closeModal-Detalhe {
+    position: relative;
+    top: 30px;
+    right: -250px;
+    cursor: pointer;
+
+}
+
+.id-status {
+    margin-bottom: 40px;
+}
+
+
+.statusPendente-detalhe {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 76px !important;
+    height: 19px;
+    margin-bottom: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 145px;
+}
+
+.statusPago-detalhe {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 99px;
+    height: 19px;
+}
+
+.status-espera-detalhe {
+    background-color: #FCF6DC;
+    color: #C5A605;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: 99px;
+    height: 19px;
+}

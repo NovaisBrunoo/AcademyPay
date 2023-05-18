@@ -1,0 +1,43 @@
+.modal-area {
+  position: absolute;
+  top: 71px;
+  right: 85px;
+  background-color: #ffffff;
+  width: 92px;
+  height: 51px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-log-out {
+  position: absolute;
+}
+
+.modal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: auto;
+  height: auto;
+  gap: 20px;
+}
+
+button {
+  all: unset;
+}
+
+button img {
+  cursor: pointer;
+}
+
+.triangulo {
+  width: 19px;
+  height: 8px;
+  position: absolute;
+  top: -7px;
+  right: 65px;
+  background-image: url('../../../assets/Polygon\ 1.svg');
+}

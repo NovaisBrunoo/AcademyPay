@@ -1,0 +1,247 @@
+.container-main {
+    width: 100%;
+    height: 1129px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 7%;
+    height: 100%;
+    background-color: #F0F0F5;
+}
+
+.container-hero {
+    width: 93%;
+    height: 100%;
+    background-color: #F8F8F9;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 112px;
+    border-bottom: 2px solid #ACD9C5;
+    margin-bottom: 19px;
+}
+
+.header-card {
+    width: 100%;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.box-card {
+    width: 360px;
+    height: 397px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.container-box {
+    width: 100%;
+    height: 397px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.contanier-box-end {
+    width: 100%;
+    height: 397px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 48px;
+    height: 74px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card h1 {
+    margin: 0;
+}
+
+.card h1:last-child {
+    margin-bottom: 8px;
+}
+
+.container-filtro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 46px;
+    margin-left: 80px;
+}
+
+.filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.search {
+    width: 318px;
+    height: 39px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.search::placeholder {
+    padding: 0px 15px;
+}
+
+.adicionar-btn {
+    all: unset;
+    width: 160px;
+    height: 33px;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alerta-cliente {
+    width: 330px;
+    height: 54px;
+    background-color: #C3D4FE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+
+}
+
+.alerta-cliente-Editar {
+    width: 430px;
+    height: 54px;
+    background-color: #C3D4FE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+
+}
+
+.alerta-delite {
+    width: 385px;
+    height: 54px;
+    background-color: #F2D6D0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+}
+
+.alerta-delite span {
+    color: #AE1100;
+}
+
+.alerta-mensagem-delite,
+.alerta-mensagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeAlerta {
+    cursor: pointer;
+}
+
+.table {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.css-acrrcc {
+    padding: 15px;
+}
+
+.detalhe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+
+}
+
+.btn-nova-cobranca {
+    all: unset;
+    width: 160px;
+    height: 33px;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-naoEncontrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.container-naoEncontrado strong {
+    color: #F08889;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.container-naoEncontrado span {
+    color: #9B9BB2;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+
+
+}

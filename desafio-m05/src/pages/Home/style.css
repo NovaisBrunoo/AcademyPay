@@ -1,0 +1,107 @@
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 34%;
+  height: 100%;
+  background-color: #F0F0F5;
+}
+
+.container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 66%;
+  height: 100%;
+}
+
+.formCadastroHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formCadastroHome input {
+  width: 368px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding: 0px 8px;
+  margin-bottom: 20px;
+}
+
+form input::placeholder {
+  padding: 10px 14px
+}
+
+.formCadastroHome label {
+  float: left;
+  width: 100%;
+  margin-bottom: 6px;
+
+}
+
+.container-sucesso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: #DA0175;
+}
+
+.barra-end {
+  margin-top: 69px;
+}
+
+.barra {
+  margin-top: 249px;
+}
+
+.link {
+  color: #DA0175;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon-visibaly-senha {
+  position: relative;
+  right: -90%;
+  top: -60%;
+}
+
+.icon-visibaly {
+  position: relative;
+  right: -90%;
+  top: -60%;
+}
+
+#error-input {
+  border: 2px solid red;
+}
+
+#input-correto {
+  border: 1px solid #D0D5DD;
+}
+
+.error-mensagem-cadastro {
+  width: 100%;
+  float: left;
+  color: red;
+  margin-bottom: 15px;
+}

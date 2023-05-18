@@ -1,0 +1,56 @@
+.box-card-end {
+    width: 556px;
+    height: 397px;
+    border-radius: 15px;
+    margin-right: 5%;
+    background-color: #ffffff;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.container-title-cliente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid #EFF0F6;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contador-vencidas {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+
+.contador-prevista {
+    background-color: #FCF6DC;
+    color: #C5A605;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+
+.contador-paga {
+    background-color: #EEF6F6;
+    color: #1FA7AF;
+    padding: 0px 15px;
+    margin-right: 25px;
+    border-radius: 8px;
+}
+
+.contador-Inadimplentes {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    padding: 0px 15px;
+    margin-right: 25px;
+    border-radius: 8px;
+}

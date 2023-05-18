@@ -1,0 +1,132 @@
+.detalhe-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+
+.title-cliente {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin-left: 15px;
+    gap: 16px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+}
+
+.dados-cliente {
+    width: 90%;
+    height: 268px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    font-family: 'Montserrat';
+    padding: 0px 15px;
+    color: #3F3F55;
+    margin-top: 15px;
+}
+
+.btn-edite {
+    all: unset;
+    text-align: center;
+    background-color: #DA0175;
+    width: 246px;
+    height: 33px;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+    background-color: #F8F8F9;
+    border-radius: 10px;
+    font-family: 'Nunito';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+
+.detalhes-cliente {
+    width: 95%;
+    height: 56px;
+    display: grid;
+    grid-template-columns: minmax(100px, 184px) 184px 184px;
+    grid-template-rows: 66px 66px 66px;
+    font-family: 'Nunito';
+    margin-bottom: 55px;
+    color: #3F3F55;
+}
+
+
+.detalhes-footer {
+    width: 95%;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 184px 184px 184px 184px 184px 184px;
+    grid-template-rows: 66px 66px 66px 66px 66px 66px;
+    font-family: 'Nunito';
+    margin-bottom: 55px;
+}
+
+.box-detalhe-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 5px;
+}
+
+.cliente-editar {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.box-detalhe-cliente strong {
+    margin-bottom: 8px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 18px;
+    color: #3F3F55;
+}
+
+.box-detalhe-cliente {
+    font-size: 15px;
+}
+
+.cobrancas-cliente {
+    width: 90%;
+    height: 370px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+.title-cobranca {
+    width: 95%;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.title-cobranca h2 {
+    font-weight: 700;
+}

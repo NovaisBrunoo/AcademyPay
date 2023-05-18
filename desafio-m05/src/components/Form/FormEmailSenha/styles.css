@@ -1,0 +1,57 @@
+.formCorpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formTitulo {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.formCorpo input {
+    width: 368px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 0px 8px
+}
+
+.formCorpo label {
+    float: left;
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+
+.formCorpo strong {
+    color: #DA0175;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container-input-senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.erro {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #DA0175;
+}
+
+.container-input-senha strong {
+    position: relative;
+    top: 43px;
+    left: 110px;
+    cursor: pointer;
+}
+
+.formCorpo {
+    margin-bottom: 324px;
+    margin-top: 235px;
+}

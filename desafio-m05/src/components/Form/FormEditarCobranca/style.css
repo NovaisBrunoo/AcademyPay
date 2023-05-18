@@ -1,0 +1,195 @@
+.form-modal-cadastro-cobranca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.check {
+    margin-bottom: 40px;
+}
+
+.form-modal-cadastro-cobranca input {
+    width: 487px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 0px 5px;
+    margin-bottom: 16px;
+}
+
+.form-modal-cadastro-cobranca textarea {
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+.form-modal-cadastro-cobranca label {
+    float: left;
+    width: 80%;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-btn button {
+    width: 20%;
+}
+
+.btn-cliente {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-venc-valor input {
+    width: 100%;
+}
+
+.container-venc-valor {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-venc-valor {
+    width: 225px;
+    margin-right: 28px;
+    margin-left: 15px;
+}
+
+.container-venc-valor label {
+    float: left;
+    width: 80%;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.btn-aplicar {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-cancel {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #F8F8F9;
+    color: #0E8750;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 23px;
+}
+
+#error-input {
+    border: 2px solid red;
+}
+
+#input-correto {
+    border: 1px solid #D0D5DD;
+}
+
+.input-descricao {
+    box-sizing: border-box;
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 101px;
+    width: 500px;
+    height: 88px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.error-mensagem-descricao {
+    display: block;
+    font-size: 12px;
+    margin-left: 15px;
+    color: red;
+    width: 80%;
+}
+
+.input-radio {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F5;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    height: 42px;
+}
+
+.labelPaga {
+    accent-color: #0E8750;
+}
+
+#huey {
+    cursor: pointer;
+    height: 34px;
+    margin-right: 35px;
+    margin-top: 20px;
+    width: 35px;
+    border: none;
+}
+
+
+
+#dewey {
+    cursor: pointer;
+    height: 34px;
+    margin-right: 35px;
+    margin-top: 20px;
+    width: 35px;
+    border: none;
+}
+
+.radio {
+    width: 50px;
+    height: 100%;
+    appearance: none;
+}
+
+.checado {
+    background-image: url('../../../assets/icone-concluido.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.naoChecado {
+    background-image: url('../../../assets/Rectangle 3530.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.labelRadio {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

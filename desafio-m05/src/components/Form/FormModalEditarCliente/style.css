@@ -1,0 +1,184 @@
+.form-modal-cadastro-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.form-modal-cadastro-cliente input {
+    width: 487px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 0px 5px;
+}
+
+.container-cpf-tel-cliente {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cpf-tel-cliente input {
+    width: 100%;
+}
+
+.form-modal-cadastro-cliente label {
+    float: left;
+    width: 80%;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.container-cpf-tel label {
+    float: left;
+    font-weight: bold;
+    width: 90%;
+}
+
+.container-cep-bairro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-cep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-cep input {
+    width: 234px !important;
+
+}
+
+.container-cidade-uf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.input-cidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-cidade input {
+    width: 303px !important;
+}
+
+.container-cidade-uf label {
+    width: 95%;
+}
+
+.container-cep-bairro label {
+    width: 95%;
+}
+
+.input-uf input {
+    width: 170px !important;
+}
+
+.input-uf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-btn button {
+    width: 20%;
+}
+
+.btn-cliente {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn-aplicar {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-cancel {
+    all: unset;
+    width: 231px;
+    height: 33px;
+    background-color: #F8F8F9;
+    color: #0E8750;
+    border-radius: 10px;
+    padding: 4px 40px 4px 40px;
+    text-align: center;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 23px;
+}
+
+#error-input {
+    border: 2px solid red;
+}
+
+#input-correto {
+    border: 1px solid #D0D5DD;
+}
+
+.error-mensagem {
+    width: 80%;
+    float: left;
+    color: red;
+}
+
+
+.error-mensagem-cpf,
+.error-mensagem-tel {
+    font-size: 12px;
+    float: left;
+    color: red;
+}
+
+.input-cpf-cliente {
+    width: 220px;
+    margin-right: 28px;
+    margin-left: 15px;
+}
+
+.error-mensagem-cpf-tel {
+    display: block;
+    font-size: 12px;
+    margin-left: 15px;
+    color: red;
+    width: 100%;
+}
